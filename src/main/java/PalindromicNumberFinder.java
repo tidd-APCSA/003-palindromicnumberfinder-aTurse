@@ -14,6 +14,7 @@ public class PalindromicNumberFinder {
     // this method should find the next palindromic numbe
       public int searchForPalindromicNum(int num){
         num += 1;
+          
           while (testPalindromicNum(num) == false){
           num += 1;
           testPalindromicNum(num);
