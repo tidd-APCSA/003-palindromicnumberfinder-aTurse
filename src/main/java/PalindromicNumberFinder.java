@@ -11,8 +11,9 @@ public class PalindromicNumberFinder {
         return this.num;
     }
 
-/*    // this method should find the next palindromic number
-    public int searchForPalindromicNum(int num){
+    // this method should find the next palindromic numbe
+/*    public int searchForPalindromicNum(int num){
+    
 
       }
 */
