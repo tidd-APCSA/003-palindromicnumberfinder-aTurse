@@ -4,6 +4,9 @@ public class PalindromicNumberFinder {
     // constructor
     public PalindromicNumberFinder(int num){
         this.num = num;
+       
+        //is else something supposed to go here??
+      
     }
 
     // accessor/getter method
@@ -13,6 +16,7 @@ public class PalindromicNumberFinder {
 
     // this method should find the next palindromic numbe
       public int searchForPalindromicNum(int num){
+        int initialNum = num;
         num += 1;
           
           while (testPalindromicNum(num) == false){
@@ -21,7 +25,7 @@ public class PalindromicNumberFinder {
           }
       
         
-        return num;
+        return num - initialNum;
       }
 
     // this is a helper method for searchForPalindromicNum. It's purpose is to test if a number is actually a palindrome

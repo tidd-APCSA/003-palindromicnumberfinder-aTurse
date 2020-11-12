@@ -4,7 +4,10 @@ public class PalindromicRunner {
         int mileage = 72927;
         PalindromicNumberFinder test = new PalindromicNumberFinder(mileage);
         int milesToGo = test.searchForPalindromicNum(mileage) - mileage;
-        System.out.println(milesToGo);
+        
+        //System.out.println(mileage);
+        //System.out.println(milesToGo);
+        //System.out.println(test.searchForPalindromicNum(mileage));
         
 
         
